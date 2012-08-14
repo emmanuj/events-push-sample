@@ -62,6 +62,7 @@ Reproducing the issue
    
    Moreover first call looks like it has an object in the response body (see. 'discarding message:...')
 
+Am I doing something wrong?
 
 ## Test environment
 
