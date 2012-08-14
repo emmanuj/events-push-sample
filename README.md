@@ -12,14 +12,15 @@ Custom event binding on the browser does not seem to work as advertised :)
 Reproducing the issue
 ---------------------
 
-0. Add at `grailsEvents.js:149` (in the _events-push_ plugin) to log message routed to the browser  
+0. Add at `grailsEvents.js:149` (in the _events-push_ plugin)  
 
 		console.log('Handling message:' + response.request.headers.topics);
 
+   to log message routed to the browser
 
-1. Open the web browser and its javascript console
+1. Run the app 
 
-2. Run the app and visit http://localhost:8080/event-sample/eventTesting/ 
+2. Open the web browser, its javascript console and visit http://localhost:8080/event-sample/eventTesting/ 
 
    The view `eventTesting/index.gsp` binds the _bagsUpdated_ topic:
    	
