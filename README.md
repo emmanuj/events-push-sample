@@ -1,10 +1,10 @@
 events-push-sample
 ==================
 
-This is a simple grails project created from scratch depending on:
+This is a simple grails sample project depending on the following plugins:
 
-	- grails-platform-core 1.0.M3
-	- grails-events-push 1.0.M2-SNAPSHOT
+	- [platform-core](https://github.com/Grailsrocks/grails-platform-core) 1.0.M3	
+	- [events-push](https://github.com/smaldini/grails-events-push) 1.0.M2-SNAPSHOT
 
 Event binding in browser
 ------------------------
@@ -29,8 +29,6 @@ Event binding in browser
 	    		...
 
     the controller method firing the _bagsUpdated_ event
-
-		package sample
 
 		class EventTestingController {
 			...
