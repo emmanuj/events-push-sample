@@ -1,0 +1,4 @@
+events = {
+
+	'bagsUpdated' browser:true 
+}

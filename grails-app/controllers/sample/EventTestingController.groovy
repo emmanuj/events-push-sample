@@ -6,7 +6,7 @@ class EventTestingController {
 
     def updateBags(){
     	Thread.sleep(5000)
-    	event for:'browser', topic: 'bagsUpdated'
+    	event topic: 'bagsUpdated'
     	render "OK"
     }
 }
