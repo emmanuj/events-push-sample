@@ -58,10 +58,11 @@ Reproducing the issue
 
 3. Events get routed but the callback does not fire 
 
-	![Browser window](./sshot.png)
+	![Browser window](https://raw.github.com/flerro/events-push-sample/master/sshot.png)
    
    Moreover first call looks like it has an object in the response body (see. 'discarding message:...')
 
+Am I doing something wrong?
 
 ## Test environment
 
