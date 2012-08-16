@@ -3,8 +3,8 @@ events-push-sample
 
 This is a simple grails sample project depending on the following plugins:
 
-	- [platform-core](https://github.com/Grailsrocks/grails-platform-core) 1.0.M3	
-	- [events-push](https://github.com/smaldini/grails-events-push) 1.0.M2-SNAPSHOT
+- [platform-core](https://github.com/Grailsrocks/grails-platform-core) 1.0.M3	
+- [events-push](https://github.com/smaldini/grails-events-push) 1.0.M2-SNAPSHOT
 
 Event binding in browser
 ------------------------
@@ -28,7 +28,7 @@ Event binding in browser
 	        		url: "${createLink(action:'updateBags')}",	
 	    		...
 
-    the controller method firing the _bagsUpdated_ event
+   the controller method firing the _bagsUpdated_ event
 
 		class EventTestingController {
 			...
